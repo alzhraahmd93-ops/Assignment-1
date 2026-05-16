@@ -1,0 +1,26 @@
+1. What is the difference between forEach and for...of? When would you use each?
+forEach is used to execute  function on every array element.
+for...of is used when need more control like using break or continue
+
+2. What is hoisting and what is the Temporal Dead Zone (TDZ)? Explain with examples.
+Hoisting means variables are moved to the top before the code runs
+TDZ is the time before a let or const variable is declared, and using it gives an error
+Ex
+console.log(a)
+var a = 5;
+
+console.log(b)
+let b=10
+ 
+3. What are the main differences between == and ===?
+== compares values only
+=== compares both value and data type
+
+4. Explain how try-catch works and why it is important in async operations.
+try-catch  used to handle errors The code in try runs and if an error happens catch handles it so the program doesn’t crash In async operations it helps handle failed requests safely
+try: نحط فيه الكود اللي ممكن يحصل فيه خطأ
+catch: بيتنفذ لو حصل خطأ ويعالج المشكلة
+
+5. What’s the difference between type conversion and coercion?
+Type conversion is use when we manually change a value from one type to another
+ Type coercion is use when JavaScript automatically converts types during operations
